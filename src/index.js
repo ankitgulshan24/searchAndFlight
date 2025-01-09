@@ -6,7 +6,7 @@ const bodyParser= require("body-parser");
 const {PORT}= require('./config/serverConfig')
 require('dotenv').config()
 const setupAndStartServer= async()=>{
-    // create a express object 
+    // create a express object  
     const app= express();
 
     // setting the middleware 
